@@ -5,9 +5,9 @@ function vidurineRaide(text) {
         return ''
     }
 
-    const textIlgis = text.length;  
+    // const textIlgis = text.length;  
 
-    const vidurineRaidesIndexas = Math.ceil(textIlgis / 2 - 1);
+    const vidurineRaidesIndexas = Math.ceil(text.length / 2 - 1);
 
 
     return text[vidurineRaidesIndexas];
